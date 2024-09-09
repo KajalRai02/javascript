@@ -80,3 +80,9 @@ let score2 = "kajal"
 let score3 = 300
 
 console.log(Array.of(score1,score2,score3))
+
+//flat - to flaten the array. we can give the value to infinity to flatten all the existing layer[ not recommended ]
+
+const arr8=[1,2,[3,4],[5,[6,7]]]
+console.log(arr8.flat(2))  //2 here is the depth of array to which it would flatened the array.
+
