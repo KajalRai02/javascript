@@ -54,3 +54,29 @@ const fruits=["Apple", "Mango"]
 console.log(veggies.push(fruits)) // array inside array
 
 console.log(veggies[2][0])  // to retrieve apple
+
+
+const food=veggies.concat(fruits) //[creates a new merged up array]
+console.log(food)
+
+//spread operator  - spread the elements indivisually
+
+const allFood=[...veggies, ...fruits]
+console.log(allFood)
+
+
+// Array operators : is, from, of
+
+console.log(Array.isArray("Kajal"))   //false
+
+console.log(Array.from("Kajal"))    // ['K','A','J','A','L']
+
+console.log(Array.from([1,23]))    //[1,23]
+
+console.log(Array.from({name:"kajal"}))  // [] -> since we havent specified , what i should convert[key or value ] to array
+
+let score1=100
+let score2 = "kajal"
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3))
