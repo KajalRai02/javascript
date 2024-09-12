@@ -46,7 +46,7 @@ const newfunc = func1.bind(user2)
 newfunc()
 
 
-//the .call() method immediately invokes the functionand sets the this to the value provided.
+//the .call() method immediately invokes the function and sets the this to the value provided.
 //we can pass additional arguments directly.
 
 //Syntax: functionName.call(thisArgs, args1,args2)
@@ -59,7 +59,6 @@ func1.call(user2)
 console.log("Using .apply method....")
 const user3={
     name:"Shahin"
-
 };
 
 function greet(greeting,ending){

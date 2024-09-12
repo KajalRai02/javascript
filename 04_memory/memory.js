@@ -13,3 +13,5 @@ let object2=object1;
 object1[0]="Shanti"
 console.log(object1)
 console.log(object2)
+
+//deep copy, shallow copy

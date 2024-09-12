@@ -101,8 +101,13 @@ console.log(elements.length)
 
 const elements2 = {
     name:"Vidhi",
+    "full name":"Vidhi Singh",
     age:24
 }
 
 console.log(elements2)
 console.log(typeof elements2)     //objects
+
+console.log(elements2["full name"])
+
+
