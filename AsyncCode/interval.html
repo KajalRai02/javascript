@@ -17,7 +17,20 @@
 </body>
 
 <script>
-    
+    let changeMe;
+    function sayHii(){
+        console.log("Hiii")
+    }
+
+    document.querySelector('#start').addEventListener('click', function(){
+        changeMe=setInterval(sayHii,2000)
+        console.log("Started")
+    })
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearInterval(changeMe)
+        console.log("Stooped")
+    })
 </script>
 
 </html>
